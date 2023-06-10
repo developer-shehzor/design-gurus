@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Global styles here */
+  .section_padding {
+    margin: 0px 100px;
+  }
+
+  .custom_left {
+    left: calc(50% - 32px - 0.25px);
+  }
+}
