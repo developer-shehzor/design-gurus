@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div class="section_padding flex justify-between" id="home">
+    <div class="md:section_padding flex flex-col md:flex-row md:justify-between ml-[37px] md:ml-[0px] mr-[37px] md:mr-[0px]" id="home">
       {/* Left Container */}
-      <div class="w-1/2 mt-[121px] flex flex-col">
+      <div class="md:w-1/2 w-full mt-[121px] flex flex-col">
         <div>
           <span class="text-[19px] font-bold leading-[23px] uppercase text-[#555555] tracking-widest">
             Award Winning design
@@ -27,7 +28,7 @@ const Hero = () => {
               stroke-linejoin="round"
             />
           </svg>
-          <div class="flex justify-center items-center bg-blue-500 w-[219px] h-[55px] rounded-full gap-3 mt-[21px]">
+          <div class="flex justify-center items-center bg-blue-500 w-[180px] md:w-[219px] h-[50px] md:h-[55px] rounded-full gap-3 mt-[21px]">
             <svg
               width="18"
               height="18"
@@ -41,14 +42,16 @@ const Hero = () => {
               />
             </svg>
 
-            <span class="text-white text-[24px] font-bold leading-[29px]">
+            <Link to="/ourwork">
+            <span class="text-white text-[20px] md:text-[24px] font-bold leading-[29px]">
               Our Work
             </span>
+            </Link>
           </div>
         </div>
       </div>
       {/* Right Container */}
-      <div class="w-1/2 mt-[121px]">
+      <div class="md:w-1/2 w-full mt-[121px]">
         <svg
           width="100%"
           height="100%"
