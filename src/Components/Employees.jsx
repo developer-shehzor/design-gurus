@@ -37,7 +37,7 @@ const Employees = () => {
           </div>
         </div>
       </div>
-      <div class="w-[414px] w-[100%] w-1/2 w-[960px] h-[428px] bg-blue-500 flex flex-wrap justify-center items-center font-normal">
+      <div class="w-[414px] w-1/2 md:w-[960px] h-[428px] bg-blue-500 flex flex-wrap justify-center items-center font-normal">
         <span class="w-[70%] text-[19px] text-white leading-[31px]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl vel at
           adipiscing cras id amet. Lacinia morbi eu hendrerit auctor gravida
